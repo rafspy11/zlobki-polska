@@ -1,0 +1,55 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"settings": {
+		"color": {
+			"palette": [
+				{ "slug": "primary",     "color": "#2D7D7B", "name": "Teal główny" },
+				{ "slug": "accent",      "color": "#F4845F", "name": "Koral" },
+				{ "slug": "background",  "color": "#FFFAF6", "name": "Tło krem" },
+				{ "slug": "text",        "color": "#1E2B2A", "name": "Tekst" },
+				{ "slug": "text-muted",  "color": "#5A7370", "name": "Tekst wyciszony" }
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "'Nunito', -apple-system, sans-serif",
+					"name": "Nunito",
+					"slug": "nunito"
+				},
+				{
+					"fontFamily": "'Playfair Display', Georgia, serif",
+					"name": "Playfair Display",
+					"slug": "playfair-display"
+				}
+			]
+		},
+		"spacing": {
+			"units": ["px", "em", "rem", "%", "vw"]
+		},
+		"layout": {
+			"contentSize": "1240px",
+			"wideSize": "1440px"
+		}
+	},
+	"styles": {
+		"color": {
+			"background": "#FFFAF6",
+			"text": "#1E2B2A"
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--nunito)",
+			"fontSize": "16px",
+			"lineHeight": "1.65"
+		},
+		"elements": {
+			"link": {
+				"color": { "text": "#2D7D7B" },
+				":hover": { "color": { "text": "#1F5957" } }
+			},
+			"h1": { "typography": { "fontFamily": "var(--wp--preset--font-family--playfair-display)", "fontWeight": "800" } },
+			"h2": { "typography": { "fontFamily": "var(--wp--preset--font-family--playfair-display)", "fontWeight": "700" } }
+		}
+	}
+}
